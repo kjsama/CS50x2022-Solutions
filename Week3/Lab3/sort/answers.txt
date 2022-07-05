@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+random5000:0m0.088s;random10000:0m0.411s;random50000:0m7.602s  reversed5000:0m0.088s;reversed10000:0m0.245s;reversed50000:0m5.654s
+How do you know?: time cost by reversed50000 less than random50000 Consistent with the characteristics of bubble sort
+
+sort2 uses: merge sort
+random50000:0m0.592s  reversed50000:0m0.467s
+How do you know?: Minimum time actually elapsed while running the program with random50000/reversed50000
+
+sort3 uses: selection sort
+random50000:0m3.325s  reversed50000:0m3.177s
+How do you know?: cost Nearly identical time to solve the random50000 and reversed50000
