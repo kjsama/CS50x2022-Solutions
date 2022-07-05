@@ -229,7 +229,7 @@ def quote():
 
     # POST
     if request.method == "POST":
-        symbol = request.form.get("quote")
+        symbol = request.form.get("symbol")
 
         if not symbol:
             return apology("MIssing symbol")
